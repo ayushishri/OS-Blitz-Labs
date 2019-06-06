@@ -1,0 +1,250 @@
+Beginning execution...
+====================  KPL PROGRAM STARTING  ====================
+Initializing Thread Scheduler...
+B requests 4
+------------------------------Number of dice now avail = 8
+B proceeds with 4
+------------------------------Number of dice now avail = 4
+C requests 5
+------------------------------Number of dice now avail = 4
+E requests 2
+------------------------------Number of dice now avail = 4
+E proceeds with 2
+------------------------------Number of dice now avail = 2
+F requests 2
+------------------------------Number of dice now avail = 2
+F proceeds with 2
+------------------------------Number of dice now avail = 0
+G requests 1
+------------------------------Number of dice now avail = 0
+H requests 1
+------------------------------Number of dice now avail = 0
+A requests 4
+------------------------------Number of dice now avail = 0
+B releases and adds back 4
+------------------------------Number of dice now avail = 4
+D requests 5
+------------------------------Number of dice now avail = 4
+F releases and adds back 2
+------------------------------Number of dice now avail = 6
+E releases and adds back 2
+------------------------------Number of dice now avail = 8
+C proceeds with 5
+------------------------------Number of dice now avail = 3
+G proceeds with 1
+------------------------------Number of dice now avail = 2
+H proceeds with 1
+------------------------------Number of dice now avail = 1
+B requests 4
+------------------------------Number of dice now avail = 1
+E requests 2
+------------------------------Number of dice now avail = 1
+F requests 2
+------------------------------Number of dice now avail = 1
+C releases and adds back 5
+------------------------------Number of dice now avail = 6
+G releases and adds back 1
+------------------------------Number of dice now avail = 7
+H releases and adds back 1
+------------------------------Number of dice now avail = 8
+A proceeds with 4
+------------------------------Number of dice now avail = 4
+B proceeds with 4
+------------------------------Number of dice now avail = 0
+C requests 5
+------------------------------Number of dice now avail = 0
+G requests 1
+------------------------------Number of dice now avail = 0
+A releases and adds back 4
+------------------------------Number of dice now avail = 4
+H requests 1
+------------------------------Number of dice now avail = 4
+H proceeds with 1
+------------------------------Number of dice now avail = 3
+B releases and adds back 4
+------------------------------Number of dice now avail = 7
+D proceeds with 5
+------------------------------Number of dice now avail = 2
+E proceeds with 2
+------------------------------Number of dice now avail = 0
+A requests 4
+------------------------------Number of dice now avail = 0
+H releases and adds back 1
+------------------------------Number of dice now avail = 1
+B requests 4
+------------------------------Number of dice now avail = 1
+D releases and adds back 5
+------------------------------Number of dice now avail = 6
+E releases and adds back 2
+------------------------------Number of dice now avail = 8
+F proceeds with 2
+------------------------------Number of dice now avail = 6
+C proceeds with 5
+------------------------------Number of dice now avail = 1
+G proceeds with 1
+------------------------------Number of dice now avail = 0
+H requests 1
+------------------------------Number of dice now avail = 0
+D requests 5
+------------------------------Number of dice now avail = 0
+E requests 2
+------------------------------Number of dice now avail = 0
+F releases and adds back 2
+------------------------------Number of dice now avail = 2
+C releases and adds back 5
+------------------------------Number of dice now avail = 7
+G releases and adds back 1
+------------------------------Number of dice now avail = 8
+A proceeds with 4
+------------------------------Number of dice now avail = 4
+H proceeds with 1
+------------------------------Number of dice now avail = 3
+E proceeds with 2
+------------------------------Number of dice now avail = 1
+F requests 2
+------------------------------Number of dice now avail = 1
+C requests 5
+------------------------------Number of dice now avail = 1
+G requests 1
+------------------------------Number of dice now avail = 1
+G proceeds with 1
+------------------------------Number of dice now avail = 0
+A releases and adds back 4
+------------------------------Number of dice now avail = 4
+H releases and adds back 1
+------------------------------Number of dice now avail = 5
+E releases and adds back 2
+------------------------------Number of dice now avail = 7
+G releases and adds back 1
+------------------------------Number of dice now avail = 8
+B proceeds with 4
+------------------------------Number of dice now avail = 4
+F proceeds with 2
+------------------------------Number of dice now avail = 2
+A requests 4
+------------------------------Number of dice now avail = 2
+H requests 1
+------------------------------Number of dice now avail = 2
+H proceeds with 1
+------------------------------Number of dice now avail = 1
+E requests 2
+------------------------------Number of dice now avail = 1
+G requests 1
+------------------------------Number of dice now avail = 1
+G proceeds with 1
+------------------------------Number of dice now avail = 0
+B releases and adds back 4
+------------------------------Number of dice now avail = 4
+F releases and adds back 2
+------------------------------Number of dice now avail = 6
+H releases and adds back 1
+------------------------------Number of dice now avail = 7
+G releases and adds back 1
+------------------------------Number of dice now avail = 8
+D proceeds with 5
+------------------------------Number of dice now avail = 3
+E proceeds with 2
+------------------------------Number of dice now avail = 1
+B requests 4
+------------------------------Number of dice now avail = 1
+F requests 2
+------------------------------Number of dice now avail = 1
+H requests 1
+------------------------------Number of dice now avail = 1
+H proceeds with 1
+------------------------------Number of dice now avail = 0
+G requests 1
+------------------------------Number of dice now avail = 0
+D releases and adds back 5
+------------------------------Number of dice now avail = 5
+E releases and adds back 2
+------------------------------Number of dice now avail = 7
+H releases and adds back 1
+------------------------------Number of dice now avail = 8
+C proceeds with 5
+------------------------------Number of dice now avail = 3
+F proceeds with 2
+------------------------------Number of dice now avail = 1
+G proceeds with 1
+------------------------------Number of dice now avail = 0
+D requests 5
+------------------------------Number of dice now avail = 0
+E requests 2
+------------------------------Number of dice now avail = 0
+C releases and adds back 5
+------------------------------Number of dice now avail = 5
+F releases and adds back 2
+------------------------------Number of dice now avail = 7
+G releases and adds back 1
+------------------------------Number of dice now avail = 8
+A proceeds with 4
+------------------------------Number of dice now avail = 4
+B proceeds with 4
+------------------------------Number of dice now avail = 0
+C requests 5
+------------------------------Number of dice now avail = 0
+F requests 2
+------------------------------Number of dice now avail = 0
+B releases and adds back 4
+------------------------------Number of dice now avail = 4
+A releases and adds back 4
+------------------------------Number of dice now avail = 8
+D proceeds with 5
+------------------------------Number of dice now avail = 3
+E proceeds with 2
+------------------------------Number of dice now avail = 1
+B requests 4
+------------------------------Number of dice now avail = 1
+A requests 4
+------------------------------Number of dice now avail = 1
+D releases and adds back 5
+------------------------------Number of dice now avail = 6
+E releases and adds back 2
+------------------------------Number of dice now avail = 8
+C proceeds with 5
+------------------------------Number of dice now avail = 3
+F proceeds with 2
+------------------------------Number of dice now avail = 1
+D requests 5
+------------------------------Number of dice now avail = 1
+C releases and adds back 5
+------------------------------Number of dice now avail = 6
+F releases and adds back 2
+------------------------------Number of dice now avail = 8
+B proceeds with 4
+------------------------------Number of dice now avail = 4
+A proceeds with 4
+------------------------------Number of dice now avail = 0
+C requests 5
+------------------------------Number of dice now avail = 0
+B releases and adds back 4
+------------------------------Number of dice now avail = 4
+A releases and adds back 4
+------------------------------Number of dice now avail = 8
+D proceeds with 5
+------------------------------Number of dice now avail = 3
+D releases and adds back 5
+------------------------------Number of dice now avail = 8
+A requests 4
+------------------------------Number of dice now avail = 8
+A proceeds with 4
+------------------------------Number of dice now avail = 4
+D requests 5
+------------------------------Number of dice now avail = 4
+A releases and adds back 4
+------------------------------Number of dice now avail = 8
+C proceeds with 5
+------------------------------Number of dice now avail = 3
+C releases and adds back 5
+------------------------------Number of dice now avail = 8
+D proceeds with 5
+------------------------------Number of dice now avail = 3
+D releases and adds back 5
+------------------------------Number of dice now avail = 8
+Done!  The next instruction to execute will be:
+000EC8: 09000000       ret     
+Number of Disk Reads    = 0
+Number of Disk Writes   = 0
+Instructions Executed   = 605543
+Time Spent Sleeping     = 0
+    Total Elapsed Time  = 605543

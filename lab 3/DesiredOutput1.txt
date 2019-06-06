@@ -1,0 +1,121 @@
+Beginning execution...
+====================  KPL PROGRAM STARTING  ====================
+Initializing Thread Scheduler...
+Plato
+    Sartre
+        Kant
+            Nietzsche
+                Aristotle
+.   .   .   .   .   
+    .   .   .   .   
+E   .   .   .   .   
+.   .   .   .   .   
+    .   .   .   .   
+E   .   .   .   .   
+E       .   .   .   
+E           .   .   
+E       E   .   .   
+E       E       .   
+E       E           
+.       E           
+.       .           
+        .           
+E       .           
+E       .   E       
+.       .   E       
+.           E       
+.           .       
+            .       
+E           .       
+E                   
+E           E       
+.           E       
+.           .       
+.           .   E   
+            .   E   
+    E       .   E   
+    E           E   
+    E           .   
+    .           .   
+    .       E   .   
+E   .       E   .   
+E           E   .   
+E           .   .   
+E           .       
+.           .       
+.                   
+.           E       
+            E       
+E           E       
+E           .       
+.           .       
+.                   
+.           E       
+            E       
+E           E       
+E           .       
+.           .       
+.                   
+.           E       
+.   E       E       
+.   E       .       
+.   .       .       
+.   .               
+.   .       E       
+.           E       
+.   E       E       
+.   E       .       
+.   .       .       
+.   .   E   .       
+.   .   E   .   E   
+.       E   .   E   
+.       .   .   E   
+.       .   .   .   
+.           .   .   
+.       E   .   .   
+.       E   .       
+.       E   .   E   
+.       .   .   E   
+.       .   .   .   
+.   E   .   .   .   
+.   E   .   .       
+.   E   .   .   E   
+.   E       .   E   
+.   .       .   E   
+.   .       .   .   
+.           .   .   
+.   E       .   .   
+.   E       .       
+.   E       .   E   
+.   .       .   E   
+.   .       .   .   
+.           .   .   
+.   E       .   .   
+.   E       .       
+.   E       .   E   
+.   .       .   E   
+.           .   E   
+.   E       .   E   
+.   .       .   E   
+.   .       .   .   
+.   .   E   .   .   
+.   .   E   .       
+.   .   E   .   E   
+.   .   E   .   .   
+.   .   .   .   .   
+.   .       .   .   
+.   .   E   .   .   
+.   .   .   .   .   
+.   .       .   .   
+.   .   E   .   .   
+.   .   .   .   .   
+.   .       .   .   
+.   .   E   .   .   
+.   .   .   .   .   
+Done!  The next instruction to execute will be:
+000EC8: 09000000       ret     
+Number of Disk Reads    = 0
+Number of Disk Writes   = 0
+Instructions Executed   = 409947
+Time Spent Sleeping     = 0
+    Total Elapsed Time  = 409947
