@@ -1,0 +1,46 @@
+This shell is a Unix-like shell for the BLITZ Operating System.
+
+At the prompt (%) you can enter a command.  "stdin" and "stdout" can be
+redirected using the "<" and ">" symbols.
+
+Here are some examples:
+  hello
+    If it exists, the program named "hello" will be executed.
+  cat < fileA > fileB
+    As in Unix, except file lengths may not be changed.  Also,
+    both files must exist ahead of time.
+  hello > fileC
+    Write the output of executing "hello" into "fileC".
+  cat < script
+    Print out a file called "script".
+  sh < script > fileD
+    This will execute a sub-shell, using commands from file "script"
+    as input, and the output will be saved to "fileD".
+  exit
+    This command is built-in to the shell and will terminate it.
+
+The BLITZ disk has these files to play with:
+  help  --  Which you are reading
+  fileA, fileB, fileC  --  Each of these has length 54
+  fileD --  A file of size 1500
+  script
+     This file contains the following commands:
+
+hello
+cat < fileB
+cat < fileA
+cat < fileA > fileB
+cat < fileB
+hello > fileB
+cat < fileB
+exit
+
+Try this:
+  sh < script > fileD
+  cat < fileD
+
+What this shell does not have:
+  piping, using the |
+  background computation, using &
+  any ability to pass command line arguments
+  a lot more
