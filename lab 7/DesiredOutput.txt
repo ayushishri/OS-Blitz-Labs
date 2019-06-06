@@ -1,0 +1,440 @@
+**********  OpenTest1 running  **********
+
+Attempting to open a nonexistent file, which should return -1.
+Okay.
+Attempting to open a file with an overly large name, which should return -1.
+Okay.
+Attempting to open an existing file, which should succeed.
+Okay.
+
+**********  Test Complete  **********
+
+**********  OpenTest2 running  **********
+
+Attempting to open the same file 10 times.
+Open 0 succeeded
+Open 1 succeeded
+Open 2 succeeded
+Open 3 succeeded
+Open 4 succeeded
+Open 5 succeeded
+Open 6 succeeded
+Open 7 succeeded
+Open 8 succeeded
+Open 9 succeeded
+Attempting to open the file one more time, which should return -1.
+Okay.
+
+**********  Test Complete  **********
+
+**********  OpenCloseTest running  **********
+
+Opening 10 files...
+Closing all 10 files...
+Opening 10 files...
+Closing all 10 files...
+Opening 10 files...
+Closing all 10 files...
+Opening 10 files...
+Closing all 10 files...
+Opening 10 files...
+Closing all 10 files...
+Opening 10 files...
+Closing all 10 files...
+Opening 10 files...
+Closing all 10 files...
+Opening 10 files...
+Closing all 10 files...
+Opening 10 files...
+Closing all 10 files...
+Opening 10 files...
+Closing all 10 files...
+
+**********  Test Complete  **********
+
+**********  CloseTest running  **********
+
+Closing files which are not open and invalid file descriptors; should be nops...
+
+**********  Test Complete  **********
+
+**********  ReadTest1 running  **********
+
+
+Should print '>>>Now is the time for all good m<<<'
+              >>>Now is the time for all good m<<<
+
+Should print '>>>en to come to the aid of their<<<'
+              >>>en to come to the aid of their<<<
+
+Should print '>>> parties!!!
+o the aid of their<<<'
+              >>> parties!!!
+o the aid of their<<<
+
+Should print '>>> parties!!!
+o the aid of their<<<'
+              >>> parties!!!
+o the aid of their<<<
+
+**********  Test Complete  **********
+
+**********  ReadTest2 running  **********
+
+Reading files which are not open and invalid file descriptors...
+Okay
+Okay
+Okay
+Okay
+Okay
+Okay
+Reading with negative sizeInBytes...
+Okay
+Okay
+
+**********  Test Complete  **********
+
+**********  SeekTest running  **********
+
+Should print 4...
+retval = 4
+Should print 0...
+retval = 0
+Should print 72...
+retval = 72
+Should print -1 (newCurrentPos is > file size)...
+retval = -1
+Should print -1 (newCurrentPos is < -1)...
+retval = -1
+Should print -1 (file not open)...
+retval = -1
+Should print -1 (bad file descriptor)...
+retval = -1
+Should print 35...
+retval = 35
+
+Should print '>>> come to the aid of their part<<<'
+              >>> come to the aid of their part<<<
+
+Should print 8...
+retval = 8
+
+Should print '>>>he time for all good men to co<<<'
+              >>>he time for all good men to co<<<
+
+**********  Test Complete  **********
+
+**********  WriteTest1 running  **********
+
+
+Should print '>>>abcdefghijklmnopqrst<<<'
+              >>>abcdefghijklmnopqrst<<<
+Checking that the file contains "abcdefghijklmnopqrst" at position 0...
+Okay.
+
+Should print '>>>abcdePONMLklmZYXWVst<<<'
+              >>>abcdePONMLklmZYXWVst<<<
+Checking that the file contains "abcdePONMLklmZYXWVst" at position 0...
+Okay.
+
+**********  Test Complete  **********
+
+**********  WriteTest2 running  **********
+
+Writing files which are not open...
+Okay
+Okay
+Okay
+Writing files with invalid file descriptors...
+Okay
+Okay
+Okay
+Writing with negative sizeInBytes...
+Okay
+Okay
+Make sure file size is unchanged...
+Okay
+
+**********  Test Complete  **********
+
+**********  WriteTest3 running  **********
+
+Writing "abcdefghijklmnopqrstuvwxyz" to position 0 in file...
+Okay
+Writing "zyxwvutsrqponmlkjihgfedcba" to position 8179 in file...
+Okay
+Writing "aaaaabbbbbcccccdddddeeeeef" to position 16371 in file...
+Okay
+Writing "ggggghhhhhiiiiijjjjjkkkkkl" to position 24550 in file...
+Okay
+Checking that the file contains "abcdefghijklmnopqrstuvwxyz" at position 0...
+Okay.
+Checking that the file contains "zyxwvutsrqponmlkjihgfedcba" at position 8179...
+Okay.
+Checking that the file contains "aaaaabbbbbcccccdddddeeeeef" at position 16371...
+Okay.
+Checking that the file contains "ggggghhhhhiiiiijjjjjkkkkkl" at position 24550...
+Okay.
+Writing "AAAABBBBCCCCDDDDEEEEFFFFGG" to position 16371 in file...
+Okay
+Writing "ABCDEFGHIJKLMNOPQRSTUVWXYZ" to position 0 in file...
+Okay
+Writing "HHHHIIIIJJJJKKKKLLLLMMMMNN" to position 24550 in file...
+Okay
+Writing "ZYXWVUTSRQPONMLKJIHGFEDCBA" to position 8179 in file...
+Okay
+Checking that the file contains "ABCDEFGHIJKLMNOPQRSTUVWXYZ" at position 0...
+Okay.
+Checking that the file contains "ZYXWVUTSRQPONMLKJIHGFEDCBA" at position 8179...
+Okay.
+Checking that the file contains "AAAABBBBCCCCDDDDEEEEFFFFGG" at position 16371...
+Okay.
+Checking that the file contains "HHHHIIIIJJJJKKKKLLLLMMMMNN" at position 24550...
+Okay.
+
+**********  Test Complete  **********
+
+**********  WriteTest4 running  **********
+
+Writing "abcdefghijklmnopqrstuvwxyz" to position 0 in file...
+Okay
+Checking that the file contains "abcdefghijklmnopqrstuvwxyz" at position 0...
+Okay.
+Writing "0123" to current position...
+Okay
+Writing "ABC" to current position...
+Okay
+Writing "4567" to current position...
+Okay
+Writing "DEF" to current position...
+Okay
+Writing "89" to current position...
+Okay
+Writing "GHI" to current position...
+Okay
+Checking that the file contains "abc0123ABC4567DEF89GHIwxyz" at position 0...
+Okay.
+
+**********  Test Complete  **********
+
+**********  WriteTest5 running  **********
+
+Writing "abcdefghijklmnopqrstuvwxyz" to position 0 in file...
+Okay
+Checking that the file contains "abcdefghijklmnopqrstuvwxyz" at position 0...
+Okay.
+Writing "abcdefghijklmnopqrstuvwxyz" to position 8192 in file...
+Okay
+Checking that the file contains "abcdefghijklmnopqrstuvwxyz" at position 8192...
+Okay.
+Make sure that the activity of child 1 and child 2 is interleaved.
+......Child 1 beginning......
+......Child 2 beginning......
+Writing "B" to position 1 in file...
+Okay
+Writing "N" to position 8205 in file...
+Writing "A" to position 0 in file...
+Okay
+Writing "D" to position 3 in file...
+Okay
+Writing "M" to position 8204 in file...
+Okay
+Writing "P" to position 8207 in file...
+Okay
+Okay
+Writing "F" to position 5 in file...
+Okay
+Writing "R" to position 8209 in file...
+Writing "C" to position 2 in file...
+Okay
+Writing "T" to position 8211 in file...
+Okay
+Writing "O" to position 8206 in file...
+Okay
+Okay
+Writing "E" to position 4 in file...
+Writing "V" to position 8213 in file...
+Okay
+Writing "Q" to position 8208 in file...
+Okay
+Writing "H" to position 7 in file...
+Okay
+Writing "J" to position 9 in file...
+Okay
+Writing "G" to position 6 in file...
+Okay
+Okay
+Writing "I" to position 8 in file...
+Writing "L" to position 11 in file...
+Okay
+Writing "K" to position 10 in file...
+Okay
+Writing "X" to position 8215 in file...
+Okay
+Okay
+......Child 2 ending......
+Writing "S" to position 8210 in file...
+Okay
+Writing "U" to position 8212 in file...
+Okay
+Writing "W" to position 8214 in file...
+Okay
+......Child 1 ending......
+Checking that the file contains "ABCDEFGHIJKLmnopqrstuvwxyz" at position 0...
+Okay.
+Checking that the file contains "abcdefghijklMNOPQRSTUVWXyz" at position 8192...
+Okay.
+
+**********  Test Complete  **********
+
+**********  ReadTest3 running  **********
+
+Should print 9 lines with the characters 'Now is th'.
+Each line should contain only one character.
+N--------
+-o-------
+--w------
+--- -----
+----i----
+-----s---
+------ --
+-------t-
+--------h
+Should print 9 lines with the characters 'e time fo'.
+Each line should contain only one character.
+e--------
+- -------
+--t------
+---i-----
+----m----
+-----e---
+------ --
+-------f-
+--------o
+Should print 9 lines with the characters 'r all goo'.
+Each line should contain only one character.
+r--------
+- -------
+--a------
+---l-----
+----l----
+----- ---
+------g--
+-------o-
+--------o
+
+**********  Test Complete  **********
+
+**********  ReadTest4 running  **********
+
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+
+**********  Test Complete  **********
+
+**********  WriteTest6 running  **********
+
+Initializing data array to ABCDEFGHIJKLMNOPQRSTUVWXYZ...
+Writing 10000 bytes to pos 0...
+Initializing data array to abcdefghijklmnopqrstuvwxyz...
+Writing 10000 bytes to pos 10000...
+Checking that the file contains "ABCDEFGHIJKLMNOPQRSTUVWXYZ" at position 0...
+Okay.
+Checking that the file contains "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPabcdefghijklmnopqrstuvwxyz" at position 9958...
+Okay.
+Checking that the file contains "abcdefghijklmnopqrstuvwxyzabcdefghijklmnop" at position 19958...
+Okay.
+Checking that the file contains "ABCDEFGHIJKLMNOPQRSTUVWXYZ" at position 3900...
+Okay.
+Checking that the file contains "abcdefghijklmnopqrstuvwxyz" at position 13900...
+Okay.
+Initializing data array to ABCDEFGHIJKLMNOPQRSTUVWXYZ...
+Checking 10000 bytes at pos 0...
+Initializing data array to abcdefghijklmnopqrstuvwxyz...
+Checking 10000 bytes at pos 10000...
+Initializing data array to ZYXWVUTSRQPONMLKJIHGFEDCBA...
+Writing 10000 bytes to pos 0...
+Initializing data array to zyxwvutsrqponmlkjihgfedcba...
+Writing 10000 bytes to pos 10000...
+Checking that the file contains "ZYXWVUTSRQPONMLKJIHGFEDCBA" at position 0...
+Okay.
+Checking that the file contains "ZYXWVUTSRQPONMLKJIHGFEDCBAZYXWVUTSRQPONMLKzyxwvutsrqponmlkjihgfedcba" at position 9958...
+Okay.
+Checking that the file contains "zyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlk" at position 19958...
+Okay.
+Checking that the file contains "ZYXWVUTSRQPONMLKJIHGFEDCBA" at position 3900...
+Okay.
+Checking that the file contains "zyxwvutsrqponmlkjihgfedcba" at position 13900...
+Okay.
+Initializing data array to ZYXWVUTSRQPONMLKJIHGFEDCBA...
+Checking 10000 bytes at pos 0...
+Initializing data array to zyxwvutsrqponmlkjihgfedcba...
+Checking 10000 bytes at pos 10000...
+
+**********  Test Complete  **********
+
+**********  OpenTest3 running  **********
+
+Attempting to open an existing file whose name exceeds the maximum.
+Okay.
+Okay.
+Attempting to open an existing file using a string which crosses a page boundary.
+Okay.
+
+**********  Test Complete  **********
+
+**********  ExecTest1 running  **********
+
+Should print 'Hello, world'...
+Hello, World!!!
+
+**********  Test Complete  **********
+
+**********  ExecTest2 running  **********
+
+Attempting to exec an existing file whose name exceeds the maximum.
+Okay.
+Attempting to exec an existing file which is not an executable.
+LoadExecutable: Bad magic number
+Okay.
+Attempting to open an existing file using a string which crosses a page boundary.
+Should print 'Hello, World!!!'...
+Hello, World!!!
+
+**********  Test Complete  **********
+
+**********  ExecTest3 running  **********
+
+Should print 'Hello, world' 20 times...
+Hello, world      1
+Hello, world      2
+Hello, world      3
+Hello, world      4
+Hello, world      5
+Hello, world      6
+Hello, world      7
+Hello, world      8
+Hello, world      9
+Hello, world      10
+Hello, world      11
+Hello, world      12
+Hello, world      13
+Hello, world      14
+Hello, world      15
+Hello, world      16
+Hello, world      17
+Hello, world      18
+Hello, world      19
+Hello, world      20
+
+**********  Test Complete  **********
